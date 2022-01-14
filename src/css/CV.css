@@ -1,0 +1,113 @@
+.cv--main{
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  padding:2rem; 
+  margin:30px; 
+  min-width:30rem;
+  max-width: 30rem;  
+  min-height:30rem;
+  box-shadow: black 6px 5px 15px 1px;
+}
+
+.cv--title{
+  background-color:rgb(112, 157, 240);
+  color:white;
+  height:6em;
+  line-height:1rem;
+  text-align: left;
+  border:1px solid black
+ }
+ 
+ .cv--title_title{
+  margin-bottom:7rem;
+  font-size: 24px;
+ }
+
+ .cv--body{
+   display:grid;
+   grid-template-columns: 1.3fr 1.7fr;
+   margin-top: 1rem;
+   border:1px solid black;
+   min-height: 30rem;
+ }
+
+ .cv--body_general-info{
+   min-height: 100%;
+ }
+
+ .cv--body_header{
+   font-size: 22px;
+ }
+
+ .cv--body_info-div{
+   text-align: left;
+   margin-bottom:0;
+ }
+ .cv--body_info-header{
+  font-size: 18px;
+  padding: 0.1rem;
+}
+
+.cv--body_info-p{
+  margin-top:-15px;
+  font-size: 16px;
+  padding: 0.1rem;
+}
+.cv--body_experience-header{
+  font-size: 22px;
+  margin-top:0.94rem
+}
+
+/* Education Section */
+
+.cv--body_experience-section-education{
+  font-size: 17px;
+}
+
+.cv--body_education-children{
+  min-height:5rem;
+  text-align: left;
+  border-bottom:1px solid lightgray
+} 
+.cv--body_education-children p:nth-child(1){
+  text-align: center;
+  font-weight:bold ;
+  font-size:18px;
+}
+
+
+/* Work Section */
+
+.cv--body_work-children{
+  min-height:5rem;
+  text-align: left;
+  border-bottom:1px solid lightgray;
+  font-size:17px;
+}
+
+.cv--body_work-children p:nth-child(2){
+  text-align: center;
+}
+.cv--body_job-title{
+  text-align: center;
+  font-weight:bold ;
+  font-size:18px;
+}
+
+.cv--body_date-div{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cv--body_description{
+  text-align: center;
+  margin-bottom:0;
+  margin-top:0rem;
+}
+.cv--body_work-description{
+  margin-top:0.5rem;
+  word-break: break-word;
+  max-width:95%
+}

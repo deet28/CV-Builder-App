@@ -1,0 +1,25 @@
+@import 'CV.css';
+@import 'input.css';
+@import 'form.css';
+@import 'button.css';
+
+.root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+html{
+  font-size:20px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.app--header{
+  top:0;
+  left:0;
+  min-width:100%;
+}

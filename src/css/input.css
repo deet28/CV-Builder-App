@@ -1,0 +1,18 @@
+.input--primary{
+  width:75%;
+  height:0.8rem;
+  font-size:inherit;
+  text-align: left;
+  
+  border-radius:2px;
+  border:1px solid lightslategray;
+  margin-bottom:1rem;
+  padding:8px;
+}
+
+.input--textarea{
+  width:77%;
+  height:4rem;
+  resize:none;
+  font-size: inherit;
+}
