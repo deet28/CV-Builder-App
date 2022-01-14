@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/deet28/CV-Builder-App",
+  "homepage": "http://deet28.github.io/CV-Builder",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
