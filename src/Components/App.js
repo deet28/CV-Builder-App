@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import Info from './Info'
 import EducationForm from './EducationForm'
 import WorkForm from './WorkForm'
